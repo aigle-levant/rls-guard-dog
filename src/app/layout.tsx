@@ -18,6 +18,9 @@ const heading = Open_Sans({
 export const metadata: Metadata = {
   title: { default: "RLS Guard Dog", template: "%s | RLS Guard Dog" },
   description: "Made by aigle",
+  icons: {
+    icon: "/favicon.ico",
+  },
 };
 
 export default function RootLayout({

@@ -1,9 +1,14 @@
 
-# RLS Guard Dog
+# RLS Guard Dog – A role-based SaaS dashboard
+
+Built with Next.js App Router, TailwindCSS, and shadcn/ui.
+
+Features public landing pages, authentication system, and an admin dashboard with user management.
 
 ## Tech stack
 
-- Main: Next.js + TypeScript + Tailwind
+- Main: Next.js + TypeScript
+- UI/UX: Tailwind + shadcn/ui
 - Database: MongoDB + Supabase
 - Hosting: Vercel
 
