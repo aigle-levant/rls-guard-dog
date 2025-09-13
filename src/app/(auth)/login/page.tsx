@@ -1,3 +1,5 @@
+import { LoginForm } from "@/components/ui/login-form";
+
 export default function Login() {
-  return <p>Works</p>;
+  return <LoginForm />;
 }

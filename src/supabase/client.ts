@@ -10,5 +10,4 @@ if (!supabaseKey) {
 }
 
 // create supabase client
-export const createClient = () =>
-  createBrowserClient(supabaseUrl!, supabaseKey!);
+export const supabase = createBrowserClient(supabaseUrl!, supabaseKey!);
