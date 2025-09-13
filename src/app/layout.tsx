@@ -1,32 +1,36 @@
 import type { Metadata } from "next";
-import { Atkinson_Hyperlegible_Next, Open_Sans } from "next/font/google";
+import { Atkinson_Hyperlegible, Open_Sans } from "next/font/google";
 import "./globals.css";
 
-const body = Atkinson_Hyperlegible_Next({
+const body = Atkinson_Hyperlegible({
   variable: "--font-body",
   subsets: ["latin"],
+  display: "swap",
+  weight: ["400", "700"],
 });
 
 const heading = Open_Sans({
   variable: "--font-heading",
   subsets: ["latin"],
+  display: "swap",
 });
 
 export const metadata: Metadata = {
-  title: "RLS Guard Dog",
+  title: { default: "RLS Guard Dog", template: "%s | RLS Guard Dog" },
   description: "Made by aigle",
 };
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-}>) {
+}) {
   return (
-    <html lang="en">
-      <body className={`${body.variable} ${heading.variable} antialiased`}>
-        {children}
-      </body>
+    <html
+      lang="en"
+      className={`${body.variable} ${heading.variable} antialiased`}
+    >
+      <body className="antialiased min-h-screen flex flex-col">{children}</body>
     </html>
   );
 }
