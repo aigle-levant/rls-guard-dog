@@ -29,17 +29,21 @@ export default function Navbar() {
             About
           </Link>
           <div id="btn-wrapper" className="gap-10">
-            <button
-              type="button"
-              className="btn px-6 py-3 text-white hover:text-black bg-[#18604a] hover:bg-[#D0F6EA] 
+            <Link href="/login">
+              <button
+                type="button"
+                className="btn px-6 py-3 text-white hover:text-black bg-[#18604a] hover:bg-[#D0F6EA] 
              hover:brightness-110 hover:shadow-[0_0_25px_rgba(34,197,94,0.8)] 
              transition-all duration-500 ease-in-out"
-            >
-              <Link href="/login">Login</Link>
-            </button>
-            <button type="button" className="btn hover:underline py-2 px-4">
-              <Link href="/signup">Sign up</Link>
-            </button>
+              >
+                Login
+              </button>
+            </Link>
+            <Link href="/sign-up">
+              <button type="button" className="btn hover:underline py-2 px-4">
+                Sign up
+              </button>
+            </Link>
           </div>
         </div>
         {/* Mobile Hamburger */}
