@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Atkinson_Hyperlegible, Open_Sans } from "next/font/google";
+import { Atkinson_Hyperlegible, Playfair_Display } from "next/font/google";
 import "./globals.css";
 
 const body = Atkinson_Hyperlegible({
@@ -9,7 +9,7 @@ const body = Atkinson_Hyperlegible({
   weight: ["400", "700"],
 });
 
-const heading = Open_Sans({
+const heading = Playfair_Display({
   variable: "--font-heading",
   subsets: ["latin"],
   display: "swap",
