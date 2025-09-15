@@ -16,7 +16,7 @@ export async function GET(request: NextRequest) {
       token_hash,
     });
     if (!error) {
-      redirect("/dashboard");
+      redirect("/onboarding");
     } else {
       redirect(`/error?error=${error?.message}`);
     }

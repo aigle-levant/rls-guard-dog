@@ -11,7 +11,7 @@ export default function Footer() {
         className="border-t-2 border-black dark:border-white py-4 px-3"
       >
         <div className="text-center py-5 px-3">
-          <p className="font-heading font-bold text-3xl">
+          <p className="font-heading font-medium text-3xl">
             &quot;Every developer has a testing environment. Not everyone has a
             separate production environment.&quot;
           </p>
