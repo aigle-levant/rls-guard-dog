@@ -4,7 +4,6 @@ import { mongoConnectionString } from "@/config/config";
 
 // to fix ts error on global.mongoose
 declare global {
-  // eslint-disable-next-line no-var
   var mongoose: { conn: mongoose.Mongoose | null };
 }
 
