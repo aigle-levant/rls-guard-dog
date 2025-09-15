@@ -3,13 +3,13 @@
 
 Built with Next.js App Router, TailwindCSS, and shadcn/ui.
 
-Features public landing pages, authentication system, and an admin dashboard with user management.
+Modern, secure authentication and instant row-level security powered by Supabase.
 
 ## Tech stack
 
 - Main: Next.js + TypeScript
 - UI/UX: Tailwind + shadcn/ui
-- Database: MongoDB + Supabase
+- Database: MongoDB + Supabase [DB + RLS]
 - Hosting: Vercel
 
 ## Getting Started
@@ -33,4 +33,3 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 ## Credits
 
 Logo: [Shield Dog | Fontawesome](https://fontawesome.com/icons/shield-dog?f=classic&s=solid&sz=2xl)
-Dog svg on hero section: [brgfx | Freepik](https://www.freepik.com/author/brgfx)

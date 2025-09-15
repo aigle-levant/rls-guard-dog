@@ -1,0 +1,8 @@
+{
+  "crons": [
+    {
+      "path": "/api/calculate-class-averages",
+      "schedule": "0 10 * * *"
+    }
+  ]
+}
